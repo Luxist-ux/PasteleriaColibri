@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colibrí - Pastelería Artesanal San Carlos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="#inicio" data-scroll-target="inicio"><img class="logo-image" src="Images/Logo.png" alt="Logo Colibrí"><span class="logo-name">Pastelería Colibrí</span></a>
+            <ul>
+                <li><a href="#catalogo" data-scroll-target="catalogo">Catálogo</a></li>
+                <li><a href="#nosotros" data-scroll-target="nosotros">Nosotros</a></li>
+                <li><a href="#contacto" data-scroll-target="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h3>Artesanía dulce hecha con amor <br>
+            para tus momentos especiales</h3>
+    </section>
+
+    <section id="catalogo">
+        <h2>Nuestro Catálogo</h2>
+        <p>Descubre nuestra variedad de productos frescos y deliciosos</p>
+
+        <div class="catalog-content">
+            <!-- PESTAÑAS DE CATÁLOGO -->
+            <div class="catalog-tabs">
+                <button class="catalog-tab-btn active" data-catalog-tab="pasteleria">Pastelería</button>
+                <button class="catalog-tab-btn" data-catalog-tab="cafeteria">Cafetería</button>
+                <button class="catalog-tab-btn" data-catalog-tab="plantas">Plantas e Insumos</button>
+            </div>
+
+            <!-- PASTELERÍA -->
+            <div class="catalog-section-wrapper active" id="pasteleria-section">
+                <div id="categorySelector-pasteleria" class="categories-grid"></div>
+
+                <div id="subcategorySelector-pasteleria" class="catalog-navigation-panel">
+                    <h3 id="selectedCategoryTitle-pasteleria" class="selected-category-title"></h3>
+                    <div id="subcategoryButtons-pasteleria" class="subcategory-buttons"></div>
+                    <button id="backButtonCat-pasteleria" class="back-button" data-back-category="pasteleria">← Volver a Pastelería</button>
+                </div>
+
+                <div id="productList-pasteleria" class="catalog-product-list">
+                    <h3 id="selectedSubcategoryTitle-pasteleria" class="selected-subcategory-title"></h3>
+                    <div id="productsContainer-pasteleria" class="products-container"></div>
+                    <button id="backButtonSub-pasteleria" class="back-button" data-back-subcategory="pasteleria">← Volver a a las Categorías</button>
+                </div>
+            </div>
+
+            <!-- CAFETERÍA -->
+            <div class="catalog-section-wrapper" id="cafeteria-section">
+                <div id="categorySelector-cafeteria" class="categories-grid"></div>
+
+                <div id="subcategorySelector-cafeteria" class="catalog-navigation-panel">
+                    <h3 id="selectedCategoryTitle-cafeteria" class="selected-category-title"></h3>
+                    <div id="subcategoryButtons-cafeteria" class="subcategory-buttons"></div>
+                    <button id="backButtonCat-cafeteria" class="back-button" data-back-category="cafeteria">← Volver a Cafetería</button>
+                </div>
+
+                <div id="productList-cafeteria" class="catalog-product-list">
+                    <h3 id="selectedSubcategoryTitle-cafeteria" class="selected-subcategory-title"></h3>
+                    <div id="productsContainer-cafeteria" class="products-container"></div>
+                    <button id="backButtonSub-cafeteria" class="back-button" data-back-subcategory="cafeteria">← Volver a las Categorías</button>
+                </div>
+            </div>
+
+            <!-- PLANTAS E INSUMOS -->
+            <div class="catalog-section-wrapper" id="plantas-section">
+                <div id="categorySelector-plantas" class="categories-grid"></div>
+
+                <div id="subcategorySelector-plantas" class="catalog-navigation-panel">
+                    <h3 id="selectedCategoryTitle-plantas" class="selected-category-title"></h3>
+                    <div id="subcategoryButtons-plantas" class="subcategory-buttons"></div>
+                    <button id="backButtonCat-plantas" class="back-button" data-back-category="plantas">← Volver a Plantas e Insumos</button>
+                </div>
+
+                <div id="productList-plantas" class="catalog-product-list">
+                    <h3 id="selectedSubcategoryTitle-plantas" class="selected-subcategory-title"></h3>
+                    <div id="productsContainer-plantas" class="products-container"></div>
+                    <button id="backButtonSub-plantas" class="back-button" data-back-subcategory="plantas">← Volver a las Categorías</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="nosotros">
+        <h2>Sobre Colibrí</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    En Pastelería Colibrí disponemos para ti una amplia gama de productos elaborados con recetas alemanas y los mejores ingredientes para llevar a tu mesa un producto de máxima calidad y sabor.
+                </p>
+                <p>
+                    Texto por agregar/Texto por agregar/Texto por agregar/Texto por agregar/Texto por agregar/Texto por agregar/Texto por agregar/
+                </p>
+                <p>
+                    Texto por agregar/Texto por agregar/Texto por agregar/Texto por agregar/Texto por agregar/Texto por agregar/Texto por agregar/
+                </p>
+            </div>
+            <!-- IMAGEN DE NOSOTROS: Reemplaza 'about-image.jpg' con la ruta a tu imagen del taller/equipo -->
+            <div class="about-image" id="about-image-container">
+                <img src="Images/about-image.jpg" alt="Equipo Colibrí">
+                <span id="about-fallback" class="about-fallback">🎨</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p>¿Preguntas o pedidos especiales? Nos encantaría escucharte</p>
+        <div class="contact-info">
+            <div class="contact-card">
+                <h3>📱 Redes Sociales</h3>
+                <p>Síguenos en nuestras redes para ver nuestras creaciones y las últimas tendencias.</p>
+                <div class="social-logos-container">
+                    <a href="https://instagram.com/colibri_sancarlos" target="_blank" class="social-icon-link">
+                        <br>
+                        <img src="Images/Instagram.jpg.jpeg" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="https://www.facebook.com/marcela.n.sanhueza/" target="_blank" class="social-icon-link">
+                        <br>
+                        <img src="Images/Facebook.svg.png" alt="Facebook" class="social-icon">
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <h3>📍 Ubicación</h3>
+                <p>San Carlos, Ñuble, Chile</p>
+                <p class="location-description">Visítanos en persona para conocer nuestro taller y probar nuestros productos.</p>
+                <a href="https://maps.app.goo.gl/rwWpDYcUxvX7aWEB6" target="_blank">Ver en Google Maps</a>
+            </div>
+
+            <div class="contact-card">
+                <h3>🎁 Pedidos Especiales</h3>
+                <p>¿Buscas algo especial? Consulta disponibilidad y tiempos de entrega con nosotros.</p>
+                <p>Te esperamos para crear tu postre perfecto.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Colibrí Pastelería.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
