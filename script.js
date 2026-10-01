@@ -24,15 +24,15 @@
                             // imagenSubcategoria: 'imagenes/torta-bizcocho.jpg',
                             productos: [
                                 // INSTRUCCIONES: Reemplaza cada línea con este formato:
-                                // { nombre: 'Torta Tres Leches', imagen: 'imagenes/torta-tres-leches.jpg' }
-                                { nombre: 'Torta Tres Leches', imagen: 'imagenes/torta-tres-leches.jpg' },
-                                { nombre: 'Torta Selva Negra', imagen: 'imagenes/torta-selva-negra.jpg' },
-                                { nombre: 'Torta Lúcuma Manjar', imagen: 'imagenes/torta-lucuma-manjar.jpg' },
-                                { nombre: 'Torta Valdiviana', imagen: 'imagenes/torta-valdiviana.jpg' },
-                                { nombre: 'Torta Tiramisú', imagen: 'imagenes/torta-tiramisu.jpg' },
-                                { nombre: 'Torta Nuez', imagen: 'imagenes/torta-nuez.jpg' },
-                                { nombre: 'Torta Chocolate', imagen: 'imagenes/torta-chocolate.jpg' },
-                                { nombre: 'Torta de Almendra', imagen: 'imagenes/torta-almendra.jpg' }
+                                // { nombre: 'Torta Tres Leches', imagen: 'Images/b_tres_Leches.jpg' }
+                                { nombre: 'Torta Tres Leches', imagen: 'Images/b_tres_Leches.jpg' },
+                                { nombre: 'Torta Selva Negra', imagen: 'Images/b_selva_negra.jpg' },
+                                { nombre: 'Torta Lúcuma Manjar', imagen: 'Images/b_Lucuma_Manjar.jpg' },
+                                { nombre: 'Torta Valdiviana', imagen: 'Images/b_Valdiviana.jpeg' },
+                                { nombre: 'Torta Tiramisú', imagen: 'Images/b_Tiramisu.jpeg' },
+                                { nombre: 'Torta Nuez', imagen: 'Images/b_Nuez.jpeg' },
+                                { nombre: 'Torta Chocolate', imagen: 'Images/b_chocolate.jpg' },
+                                { nombre: 'Torta de Almendra', imagen: 'Images/b_Nuez.jpeg' }
                             ]
                         },
                         // ========== SUBCATEGORÍA: HOJARASCA ==========
@@ -40,12 +40,12 @@
                             nombre: 'Hojarasca',
                             // imagenSubcategoria: 'imagenes/torta-hojarasca.jpg',
                             productos: [
-                                { nombre: 'Torta Trasnochada', imagen: 'imagenes/torta-trasnochada.jpg' },
-                                { nombre: 'Torta Hoja Manjar', imagen: 'imagenes/torta-hoja-manjar.jpg' },
-                                { nombre: 'Torta Hoja Manjar Maracuyá', imagen: 'imagenes/torta-hoja-maracuya.jpg' },
-                                { nombre: 'Torta Hoja Lúcuma Manjar', imagen: 'imagenes/torta-hoja-lucuma.jpg' },
-                                { nombre: 'Torta Hoja Manjar Nuez', imagen: 'imagenes/torta-hoja-nuez.jpg' },
-                                { nombre: 'Torta Amor', imagen: 'imagenes/torta-amor.jpg' }
+                                { nombre: 'Torta Trasnochada', imagen: 'Images/h_Trasnochada.jpg' },
+                                { nombre: 'Torta Hoja Manjar', imagen: 'Images/h_hoja_manjar.jpg' },
+                                { nombre: 'Torta Hoja Manjar Maracuyá', imagen: 'Images/h_Hoja_manjar_Maracuya.jpg' },
+                                { nombre: 'Torta Hoja Lúcuma Manjar', imagen: 'Images/h_hoja_lucuma_manjar.jpg' },
+                                { nombre: 'Torta Hoja Manjar Nuez', imagen: 'Images/h_manjar_nuez.png' },
+                                { nombre: 'Torta Amor', imagen: 'Images/h_amor.jpg' }
                             ]
                         },
                         // ========== SUBCATEGORÍA: PANQUEQUE ==========
@@ -53,11 +53,11 @@
                             nombre: 'Panqueque',
                             // imagenSubcategoria: 'imagenes/torta-panqueque.jpg',
                             productos: [
-                                { nombre: 'Torta Panqueque Chocolate Blanco', imagen: 'imagenes/torta-panqueque-choco-blanco.jpg' },
-                                { nombre: 'Torta Panqueque Naranja', imagen: 'imagenes/torta-panqueque-naranja.jpg' },
-                                { nombre: 'Torta Panqueque Chocolate', imagen: 'imagenes/torta-panqueque-chocolate.jpg' },
-                                { nombre: 'Torta Panqueque Trufa', imagen: 'imagenes/torta-panqueque-trufa.jpg' },
-                                { nombre: 'Torta Panqueque Trufa Naranja', imagen: 'imagenes/torta-panqueque-trufa-naranja.jpg' }
+                                { nombre: 'Torta Panqueque Chocolate Blanco', imagen: 'Images/p_chocolate_blanco.jpeg' },
+                                { nombre: 'Torta Panqueque Naranja', imagen: 'Images/p_naranja.jpg' },
+                                { nombre: 'Torta Panqueque Chocolate', imagen: 'Images/p_chocolate.jpg' },
+                                { nombre: 'Torta Panqueque Trufa', imagen: 'Images/p_trufa.jpeg' },
+                                { nombre: 'Torta Panqueque Trufa Naranja', imagen: 'Images/p_trufa_naranja.jpeg' }
                             ]
                         },
                         // ========== SUBCATEGORÍA: SIN AZÚCAR ==========
@@ -65,9 +65,9 @@
                             nombre: 'Sin Azúcar',
                             // imagenSubcategoria: 'imagenes/torta-sinazucar.jpg',
                             productos: [
-                                { nombre: 'Torta Chocolate Sin Azúcar', imagen: 'imagenes/torta-chocolate-sinazucar.jpg' },
-                                { nombre: 'Torta Berries Sin Azúcar', imagen: 'imagenes/torta-berries-sinazucar.jpg' },
-                                { nombre: 'Torta Amor Sin Azúcar', imagen: 'imagenes/torta-amor-sinazucar.jpg' }
+                                { nombre: 'Torta Chocolate Sin Azúcar', imagen: 'Images/S_chocolate.jpg' },
+                                { nombre: 'Torta Berries Sin Azúcar', imagen: 'Images/S_Berries.jpg' },
+                                { nombre: 'Torta Amor Sin Azúcar', imagen: 'Images/S_amor.jpg' }
                             ]
                         }
                     }
